@@ -1,0 +1,110 @@
+/* Reset page spacing so the header does not have a gap at the top */
+html, body {
+	margin: auto;
+}
+
+/* Settings used for most of the page */
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	text-align: center;
+	background-color: black;
+	opacity: 0.9;
+}
+
+/* Floating header */
+.header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 69px;
+	width: 100%;
+	background-color: black;
+	border-bottom: 1px solid seashell;
+}
+
+.header img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+span {
+	text-decoration: underline;
+	margin: 0px 10px 0px 10px;
+}
+
+/* Mission background picture and text */
+.mission {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto 50px auto;
+	background-image: url("../images/img-mission-background.jpg");
+}
+
+#missiontxt {
+	background-color: black;
+	width: 1200px;
+}
+
+/* Month header, pictures, and text */
+.month {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1000px;
+	margin: 0 auto 50px auto;
+}
+
+#monthtxt {
+	width: 1000px;
+}
+
+.month img {
+	height: 200px;
+	width: 300px;
+	padding: 0px 15px;
+}
+
+/* Location header, addresses, and picture */
+.location {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 500px;
+	width: 1200px;
+	margin: auto;
+	background-image: url("../images/img-locations-background.jpg")
+}
+
+#locationtxt {
+	width: 1200px;
+}
+
+#container {
+	display: flex;
+}
+
+.address {
+	width: 300px;
+	margin: 0 20px;
+	background-color: black;
+	opacity: 1;
+}
+
+/* Contact information */
+.contact {
+	height: 200px;
+}
+
+/* Copyright information */
+.footer {
+	text-align: left;
+	margin-left: 20px;
+}
